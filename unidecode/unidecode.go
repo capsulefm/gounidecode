@@ -120,6 +120,8 @@ func Unidecode(s, toLangCode string) string {
 		}
 		if d, ok := transliterations[c]; ok {
 			str += d
+		} else {
+			str += string(c)
 		}
 	}
 	return str
