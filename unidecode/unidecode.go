@@ -4,6 +4,7 @@
 
 package unidecode
 
+//
 import (
 	"unicode"
 )
